@@ -28,3 +28,6 @@
       ]
   }
 }
+
+
+"lighting": "vialrgb" // this right here is causing all my issues , if compiled with this , it does not work. 
