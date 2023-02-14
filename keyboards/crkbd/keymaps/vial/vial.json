@@ -2,9 +2,7 @@
   "name": "Crkbd",
   "vendorId": "0x4653",
   "productId": "0x0001",
-  "lighting": {
-      "extends": "qmk_rgblight"
-  },
+  "lighting": "vialrgb"
   "matrix": { "rows": 8, "cols": 6 },
   "layouts": {
       "keymap": [
@@ -28,6 +26,3 @@
       ]
   }
 }
-
-
-"lighting": "vialrgb" // this right here is causing all my issues , if compiled with this , it does not work. 
